@@ -11,7 +11,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "header": "url('/bg-header.svg')",
+        header: "url('/bg-header.svg')",
         "mobile-header": "url('/mobile-bg-header.svg')",
       },
       fontFamily: {
@@ -19,9 +19,16 @@ module.exports = {
         oswald: ["var(--font-oswald)"],
       },
       colors: {
-        primary: "#17ABFF"
-      }
+        primary: "#17ABFF",
+        secondary: "#00357B",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase, theme }) {
+      addBase({
+        "h1, h2, h3, h4, h5, h6": { fontFamily: theme("fontFamily.oswald") },
+      });
+    },
+  ],
 };
