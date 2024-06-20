@@ -6,6 +6,7 @@ export default function Home() {
     <main className="font-poppins">
       <header>
         <HeaderSection />
+        <MiddleSection />
       </header>
     </main>
   );
