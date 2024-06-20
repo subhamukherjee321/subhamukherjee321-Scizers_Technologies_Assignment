@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeaderSection = () => {
   return (
-    <section className="w-full h-[750px] md:h-[500px] xl:h-[658px] bg-mobile-header md:bg-header bg-cover bg-no-repeat p-4 pt-8 md:p-0 md:pt-6 md:px-32">
+    <div className="w-full h-[750px] md:h-[500px] xl:h-[658px] bg-mobile-header md:bg-header bg-cover bg-no-repeat p-4 md:pt-6 md:px-32">
       <div className="flex justify-between w-full items-center">
         <div className="w-[150px] h-[20px] md:w-[165.84px] md:h-[20.86px]">
           <Image
@@ -33,7 +33,9 @@ const HeaderSection = () => {
 
       <div className="flex flex-col md:flex-row justify-between md:justify-between items-center md:items-center mt-4 md:mt-20">
         <div>
-          <h1 className="text-[37px] md:text-[48px] text-white uppercase font-oswald font-[600] w-[80%] md:w-[60%]">
+          <h1
+            className="text-[37px] md:text-[48px] text-white uppercase font-oswald font-[600] w-[80%] md:w-[60%]"
+          >
             Harbour Lights de <span className="text-primary">GRESOGONO</span>
           </h1>
 
@@ -74,7 +76,7 @@ const HeaderSection = () => {
           </div>
 
           <div
-            className="bg-[rgba(60,60,60,0.5)] md:py-4 md:px-8 p-6 w-full rounded-lg mt-1 text-[#98C5E8] text-[13px]"
+            className="bg-[rgba(60,60,60,0.5)] md:py-4 md:px-8 p-6 w-full rounded-lg mt-1 text-[#98c5e8b7] text-[13px]"
             // style={{ boxShadow: "rgba(150, 150, 150, 0.5) 0px 7px 29px 0px" }}
           >
             Get an Expert’s Presentation of Real Estate in Dubai for Life and
@@ -82,7 +84,7 @@ const HeaderSection = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

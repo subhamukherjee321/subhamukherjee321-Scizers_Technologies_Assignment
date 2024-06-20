@@ -2,8 +2,10 @@ import HeaderSection from "@/components/HeaderSection";
 
 export default function Home() {
   return (
-    <main>
-      <HeaderSection />
+    <main className="font-poppins">
+      <header>
+        <HeaderSection />
+      </header>
     </main>
   );
 }
