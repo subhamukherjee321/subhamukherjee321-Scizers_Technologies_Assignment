@@ -11,6 +11,30 @@
 - Subha Mukherjee +918759290035
 <br/> <br/>
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Getting Started
+
+First Clone The Repo By Click On The Code And HTTPS or SSH Copy The Link:
+Then Run Open Terminal And Run The Command
+```bash
+git clone paste the copied link
+```
+Then
+```bash
+npm install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
 ## Let's Dive into What I have made
 
 ## Header Section Desktop View :
