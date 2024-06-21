@@ -1,7 +1,7 @@
 # Welcome to Scizers Technologies LLP Assignment
 <h3>Scizers Technologies LLP Assignment where I have completed the Frontend Page with Desktop and Mobile responsive</h3>
 
-# Deployed URL 👉 [Click here]([https://we-fit.netlify.app/](https://subhamukherjee321-scizers-technologies-assignment.vercel.app/))
+# Deployed URL 👉 [[Click here](https://subhamukherjee321-scizers-technologies-assignment.vercel.app/)]
 
 ## My Linked ID for Contact
 - Subha Mukherjee (My Linkedin profile :- https://www.linkedin.com/in/subha-mukherjee-652a551ba/)
