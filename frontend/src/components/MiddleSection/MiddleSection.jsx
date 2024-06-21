@@ -7,40 +7,42 @@ import {
 const MiddleSection = () => {
   return (
     <section>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 w-[75%] m-auto py-8 bg-[#F4F9FF]">
-        {firstSectionMiddleData?.map((item) => (
-          <div
-            key={item.id}
-            className="justify-center items-center flex-col text-secondary hidden md:flex"
-          >
-            <Image src={item.image} alt={item.title} />
-            <p className="mt-1 mb-[-5px] text-[16px] font-[400]">
-              {item?.title}
-            </p>
-            <h4 className="text-[30px] font-[600]">{item.heading}</h4>
-            <div className="mt-1.5 w-[35%] h-[5px] bg-[#D6E1EF]"></div>
-          </div>
-        ))}
+      <div className="bg-[#F4F9FF]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 w-[75%] m-auto py-8">
+          {firstSectionMiddleData?.map((item) => (
+            <div
+              key={item.id}
+              className="justify-center items-center flex-col text-secondary hidden md:flex"
+            >
+              <Image src={item.image} alt={item.title} />
+              <p className="mt-1 mb-[-5px] text-[16px] font-[400]">
+                {item?.title}
+              </p>
+              <h4 className="text-[30px] font-[600]">{item.heading}</h4>
+              <div className="mt-1.5 w-[35%] h-[5px] bg-[#D6E1EF]"></div>
+            </div>
+          ))}
 
-        {firstSectionMiddleData?.map((item) => {
-          if (item.id === 2 || item.id === 3) {
-            return (
-              <div
-                key={item.id}
-                className="justify-center items-center flex-col text-secondary flex md:hidden"
-              >
-                <Image src={item.image} alt={item.title} />
-                <p className="mt-1 mb-0 md:mb-[-5px] text-[13px] md:text-[16px] font-[400]">
-                  {item?.title}
-                </p>
-                <h4 className="text-[25px] md:text-[30px] font-[600]">
-                  {item.heading}
-                </h4>
-                <div className="mt-1.5 w-[73%] h-[5px] bg-[#D6E1EF]"></div>
-              </div>
-            );
-          }
-        })}
+          {firstSectionMiddleData?.map((item) => {
+            if (item.id === 2 || item.id === 3) {
+              return (
+                <div
+                  key={item.id}
+                  className="justify-center items-center flex-col text-secondary flex md:hidden"
+                >
+                  <Image src={item.image} alt={item.title} />
+                  <p className="mt-1 mb-0 md:mb-[-5px] text-[13px] md:text-[16px] font-[400]">
+                    {item?.title}
+                  </p>
+                  <h4 className="text-[25px] md:text-[30px] font-[600]">
+                    {item.heading}
+                  </h4>
+                  <div className="mt-1.5 w-[73%] h-[5px] bg-[#D6E1EF]"></div>
+                </div>
+              );
+            }
+          })}
+        </div>
       </div>
 
       <div className="text-center mt-8 font-[500] text-secondary text-4xl md:text-4xl uppercase w-[58%] md:w-[15%] m-auto">
