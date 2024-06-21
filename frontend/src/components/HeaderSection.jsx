@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeaderSection = () => {
   return (
-    <div className="w-full h-[750px] md:h-[500px] xl:h-[658px] bg-mobile-header md:bg-header bg-cover bg-no-repeat p-4 md:pt-6 md:px-32">
+    <header className="w-full h-[750px] md:h-[500px] xl:h-[658px] bg-mobile-header md:bg-header bg-cover bg-no-repeat p-4 md:pt-6 md:px-32">
       <div className="flex justify-between w-full items-center">
         <div className="w-[150px] h-[20px] md:w-[165.84px] md:h-[20.86px]">
           <Image
@@ -84,7 +84,7 @@ const HeaderSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
