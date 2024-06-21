@@ -30,7 +30,7 @@ const SwiperSection = () => {
 
   return (
     <section className="relative w-full max-w-[80%] max-h-[222px] md:max-h-[494px] mx-auto md:my-10 my-6">
-      <div className="overflow-hidden rounded-lg shadow-lg">
+      <div className="overflow-hidden rounded-lg">
         <div
           className="flex transition-transform duration-700 ease-in-out max-h-[222px] md:max-h-[494px]"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
