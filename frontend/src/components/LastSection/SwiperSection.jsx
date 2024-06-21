@@ -40,7 +40,7 @@ const SwiperSection = () => {
               <Image
                 src={image}
                 alt={`Slide ${index}`}
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
                 width={100}
               />
             </div>
